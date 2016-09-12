@@ -1,0 +1,43 @@
+{
+  "blueprint" : "cluster_blueprint",
+  "default_password" : "admin123",
+  "host_groups" :[
+    {
+      "name" : "slavenode_simple",
+      "hosts" : [
+        {
+          "fqdn" : "ip-10-0-102-161.ap-northeast-2.compute.internal"
+        },
+
+        {
+          "fqdn" : "ip-10-0-102-40.ap-northeast-2.compute.internal"
+        }
+
+      ]
+    },
+    {
+      "name" : "masternode_2",
+      "hosts" : [
+        {
+          "fqdn" : "ip-10-0-102-189.ap-northeast-2.compute.internal"
+        }
+      ]
+    },
+    {
+      "name" : "slavenode_zookeeper",
+      "hosts" : [
+        {
+          "fqdn" : "ip-10-0-102-249.ap-northeast-2.compute.internal"
+        }
+      ]
+    },
+    {
+      "name" : "masternode_1",
+      "hosts" : [
+        {
+          "fqdn" : "ip-10-0-102-139.ap-northeast-2.compute.internal"
+        }
+      ]
+    }
+  ]
+}

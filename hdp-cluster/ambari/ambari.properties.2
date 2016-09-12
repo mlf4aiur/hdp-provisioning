@@ -1,0 +1,96 @@
+#
+# Copyright 2011 The Apache Software Foundation
+#
+# Licensed to the Apache Software Foundation (ASF) under one
+# or more contributor license agreements.  See the NOTICE file
+# distributed with this work for additional information
+# regarding copyright ownership.  The ASF licenses this file
+# to you under the Apache License, Version 2.0 (the
+# "License"); you may not use this file except in compliance
+# with the License.  You may obtain a copy of the License at
+#
+#     http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+#
+#Mon Jul 25 09:45:16 UTC 2016
+jdk1.7.dest-file=jdk-7u67-linux-x64.tar.gz
+agent.package.install.task.timeout=1800
+server.connection.max.idle.millis=900000
+bootstrap.script=/usr/lib/python2.6/site-packages/ambari_server/bootstrap.py
+server.version.file=/var/lib/ambari-server/resources/version
+recovery.type=AUTO_START
+api.authenticate=true
+http.strict-transport-security=max-age=31536000
+jdk1.8.jcpol-url=http://public-repo-1.hortonworks.com/ARTIFACTS/jce_policy-8.zip
+jdk1.8.dest-file=jdk-8u60-linux-x64.tar.gz
+common.services.path=/var/lib/ambari-server/resources/common-services
+http.x-frame-options=DENY
+server.task.timeout=1200
+jce.download.supported=true
+agent.threadpool.size.max=25
+recovery.lifetime_max_count=1024
+http.x-xss-protection=1; mode=block
+ambari.python.wrap=ambari-python-wrap
+ambari-server.user=root
+metadata.path=/var/lib/ambari-server/resources/stacks
+jdk1.8.url=http://public-repo-1.hortonworks.com/ARTIFACTS/jdk-8u60-linux-x64.tar.gz
+jdk1.7.url=http://public-repo-1.hortonworks.com/ARTIFACTS/jdk-7u67-linux-x64.tar.gz
+client.threadpool.size.max=25
+java.home=/usr/jdk64/jdk1.8.0_60
+jdk.name=jdk-8u60-linux-x64.tar.gz
+jce.name=jce_policy-8.zip
+server.stages.parallel=true
+java.releases=jdk1.8,jdk1.7
+skip.service.checks=false
+shared.resources.dir=/usr/lib/ambari-server/lib/ambari_commons/resources
+jdk.download.supported=true
+recommendations.dir=/var/run/ambari-server/stack-recommendations
+ulimit.open.files=10000
+agent.stack.retry.tries=5
+rolling.upgrade.min.stack=HDP-2.2
+bootstrap.dir=/var/run/ambari-server/bootstrap
+jdk1.8.desc=Oracle JDK 1.8 + Java Cryptography Extension (JCE) Policy Files 8
+server.tmp.dir=/var/lib/ambari-server/data/tmp
+server.os_type=ubuntu14
+views.http.strict-transport-security=max-age=31536000
+resources.dir=/var/lib/ambari-server/resources
+custom.action.definitions=/var/lib/ambari-server/resources/custom_action_definitions
+views.http.x-frame-options=SAMEORIGIN
+views.request.connect.timeout.millis=5000
+jdk1.7.re=(jdk.*)/jre
+user.inactivity.timeout.default=0
+jdk1.7.desc=Oracle JDK 1.7 + Java Cryptography Extension (JCE) Policy Files 7
+agent.stack.retry.on_repo_unavailability=false
+jdk1.8.jcpol-file=jce_policy-8.zip
+rolling.upgrade.max.stack=
+server.http.session.inactive_timeout=1800
+jdk1.7.jcpol-file=UnlimitedJCEPolicyJDK7.zip
+server.execution.scheduler.misfire.toleration.minutes=480
+security.server.keys_dir=/var/lib/ambari-server/keys
+jdk1.8.home=/usr/jdk64/
+stackadvisor.script=/var/lib/ambari-server/resources/scripts/stack_advisor.py
+recovery.enabled_components=METRICS_COLLECTOR
+server.execution.scheduler.maxThreads=5
+rolling.upgrade.skip.packages.prefixes=
+server.fqdn.service.url=http://169.254.169.254/latest/meta-data/public-hostname
+views.http.x-xss-protection=1; mode=block
+webapp.dir=/usr/lib/ambari-server/web
+views.ambari.request.read.timeout.millis=10000
+jdk1.7.home=/usr/jdk64/
+kerberos.keytab.cache.dir=/var/lib/ambari-server/data/cache
+bootstrap.setup_agent.script=/usr/lib/python2.6/site-packages/ambari_server/setupAgent.py
+server.execution.scheduler.maxDbConnections=5
+user.inactivity.timeout.role.readonly.default=0
+jdk1.8.re=(jdk.*)/jre
+agent.task.timeout=900
+server.os_family=ubuntu14
+jdk1.7.jcpol-url=http://public-repo-1.hortonworks.com/ARTIFACTS/UnlimitedJCEPolicyJDK7.zip
+server.execution.scheduler.isClustered=false
+views.ambari.request.connect.timeout.millis=5000
+views.request.read.timeout.millis=10000
